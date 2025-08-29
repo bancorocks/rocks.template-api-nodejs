@@ -58,7 +58,7 @@ router.get('/:accountId', (req, res) => {
       message: 'Account not found',
     })
   }
-  res.json(account)
+  return res.json(account)
 })
 
 export default router
