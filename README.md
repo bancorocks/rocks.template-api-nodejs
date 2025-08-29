@@ -6,10 +6,8 @@ Accounts API
 
 - OpenAPI 3.0.3 specification with Swagger UI at `/docs`
 - Request/response validation via express-openapi-validator
-- In-memory persistence with json-server mirror at `/_db`
+- In-memory persistence at db.json
 - Idempotency support on POST /v1/accounts
-- ESLint v9 + Prettier
-- Commitizen + Release-it for versioning
 
 ## Getting Started
 
@@ -56,7 +54,6 @@ curl http://localhost:3003/v1/accounts/7b9e6432-8c13-4b8e-9c45-1d2a3f456b78
 ## Documentation
 
 - API docs: http://localhost:3003/docs
-- DB browser: http://localhost:3003/\_db
 
 ## Development
 
