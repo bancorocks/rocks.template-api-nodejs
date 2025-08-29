@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rocks-accounts-api
+  title: Rocks Accounts API
+  description: >
+    Accounts API
+  annotations:
+    github.com/project-slug: bancorocks/rocks.accounts-api
+    backstage.io/source-location: url:https://github.com/bancorocks/rocks.accounts-api
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - express
+    - typescript
+    - openapi
+    - swagger
+    - jsonserver
+    - mock
+spec:
+  type: service
+  lifecycle: production
+  owner: banking-team
+  system: banco-rocks
+  providesApis:
+    - rocks-accounts-api

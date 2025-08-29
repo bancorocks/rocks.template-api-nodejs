@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: rocks-accounts-api
+  description: Rocks Accounts REST API.
+  tags:
+    - rest
+    - accounts
+spec:
+  type: openapi
+  lifecycle: production
+  owner: banking-team
+  system: banco-rocks
+  definition:
+    $text: ./openapi.yaml

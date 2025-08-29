@@ -1,0 +1,29 @@
+{
+  "accounts": [
+    {
+      "accountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "number": "123456",
+      "branch": "0001",
+      "name": "João da Silva",
+      "document": "00000000000",
+      "status": "active",
+      "createdAt": "2025-08-29T12:00:00Z",
+      "productCode": "CA_BASIC",
+      "currency": "BRL"
+    },
+    {
+      "accountId": "7b9e6432-8c13-4b8e-9c45-1d2a3f456b78",
+      "number": "987654",
+      "branch": "0001",
+      "name": "Maria Oliveira",
+      "document": "11111111111",
+      "status": "active",
+      "createdAt": "2025-08-20T09:30:00Z",
+      "productCode": "CA_BASIC",
+      "currency": "BRL"
+    }
+  ],
+  "meta": {
+    "version": "1.0.0"
+  }
+}
